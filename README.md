@@ -16,6 +16,7 @@ Zonas
 
 Comandos (En el git bash, precedidos por 'git')
 --------
+PARTE 1
 * status: Estado actual del repositorio.
 * log: Historial de commits hechos en ese repositorio.
 * add <archivo>: Añadir contenidos del 'working copy' al 'staging area'.
@@ -23,3 +24,10 @@ Comandos (En el git bash, precedidos por 'git')
 * checkout -- <archivo>: Descarta los cambios en un fichero del 'working copy'.
 * push: Envia a un repositorio remoto.
 * pull: Descargar el contenido de un repositorio remoto.
+
+PARTE 2
+* branch: Listado de ramas del repositorio.
+* checkout "<rama>": Moverse a una rama del repositorio.
+* checkout -b "<rama>": Crear una rama y moverse a ella.
+* merge "<rama>: Mezclar contenido de la rama actual y la elegida.
+* branch -D "<rama>": Borrar rama del repositorio con todo su contenido.
